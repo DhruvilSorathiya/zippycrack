@@ -1,8 +1,8 @@
 ## example to decrypt password-protected zip files
 
 ## something strange i've found: zipfiles sometimes can be decrypted by multiple different passwords
-
-import zipfile,zippycrack,sys,os
+import sys,os
+import zipfile,zippycrack
 
 if len(sys.argv) != 3 and len(sys.argv) != 4:
 	print "usage: zipcracker.py <zipfile> <password list> [num threads]"
