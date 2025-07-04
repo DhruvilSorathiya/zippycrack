@@ -1,7 +1,7 @@
 from multiprocessing import Process, Queue
 import sys
 
-## constants
+##  constants
 ROUND_ROBIN = 1
 SEGMENTED = 2
 EXIT_ = 77777 # idk... this is for exiting the thread; will never be a number
