@@ -3,7 +3,6 @@ import Queue
 import sys
 
 ####### WIP
-
 ## constants
 ROUND_ROBIN = 1
 SEGMENTED = 2
